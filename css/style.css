@@ -66,6 +66,7 @@ div.card:hover .content {
   margin-bottom: 10%;
   position: relative;
   bottom: 15px;
+  text-shadow: 2px 2px #899EA5;
 }
 
 footer {
