@@ -13,7 +13,7 @@ body {
 h1.title {
   font-size: 100px;
   color: white;
-  text-shadow: 1px 2px #899EA5;
+  text-shadow: 1px 1px #899EA5;
 }
 
 div.card {
@@ -22,22 +22,35 @@ div.card {
   background-image: url(../img/pattern.png);
   background-size: contain;
   color: #E61986;
-  font-size: 40px;
-  position: relative;
   display: inline-block;
+  margin: 15px;
+  vertical-align: bottom;
+  position: relative;
+  box-shadow: 2px 2px #899EA5;
+  border-radius: 10px;
+}
+
+div.card:hover {
+  background-color: white;
+  background-image: none;
+}
+
+.content {
+  display: none;
+}
+
+div.card:hover .content {
+  display: block;
 }
 
 .card img {
-  margin: 10% 15% 0%;
-  display: none;
+  max-width: 70%;
+  margin-top: 10%;
 }
 
 .card .caption {
-  display: none;
+  font-size: 40px;
+  margin-bottom: 10%;
   position: relative;
-  bottom: 10%;
-}
-
-div.card:hover img, div.card:hover .caption {
-  display: block;
+  bottom: 15px;
 }
