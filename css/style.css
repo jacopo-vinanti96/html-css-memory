@@ -1,0 +1,17 @@
+* {
+  font-family: 'Nerko One', cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #ADD8E6;
+}
+
+h1.title {
+  font-size: 100px;
+  color: white;
+  text-shadow: 1px 2px #899EA5;
+}
