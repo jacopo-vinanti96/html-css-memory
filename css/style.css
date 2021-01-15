@@ -36,7 +36,6 @@ div.card {
   display: none;
   position: relative;
   bottom: 10%;
-
 }
 
 div.card:hover img, div.card:hover .caption {
