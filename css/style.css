@@ -35,12 +35,20 @@ div.card:hover {
   background-image: none;
 }
 
-.content {
+.card .content {
   display: none;
 }
 
 div.card:hover .content {
   display: block;
+}
+
+.content.face-up-default {
+  display: block;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .card img {
