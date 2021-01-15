@@ -1,9 +1,9 @@
 * {
   font-family: 'Nerko One', cursive;
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
   text-align: center;
+  margin: auto;
 }
 
 body {
@@ -14,4 +14,31 @@ h1.title {
   font-size: 100px;
   color: white;
   text-shadow: 1px 2px #899EA5;
+}
+
+div.card {
+  height: 250px;
+  width: calc(250px/1.17);
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  color: #E61986;
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+}
+
+.card img {
+  margin: 10% 15% 0%;
+  display: none;
+}
+
+.card .caption {
+  display: none;
+  position: relative;
+  bottom: 10%;
+
+}
+
+div.card:hover img, div.card:hover .caption {
+  display: block;
 }
